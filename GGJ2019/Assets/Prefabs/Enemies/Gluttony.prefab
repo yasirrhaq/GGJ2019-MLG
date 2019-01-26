@@ -38,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1809761506754784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.95, y: 6.84, z: -0.011389308}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Slime
-  health: 50
+  health: 10
   damage: 10
   point: 10
   type: 1
@@ -111,6 +111,8 @@ MonoBehaviour:
   animator: {fileID: 95747678780833058}
   speed: 1
   playerTransform: {fileID: 0}
+  move: 0
+  startWaitTime: 0.5
 --- !u!212 &212776481927780666
 SpriteRenderer:
   m_ObjectHideFlags: 1

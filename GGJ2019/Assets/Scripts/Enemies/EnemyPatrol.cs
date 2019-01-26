@@ -21,9 +21,9 @@ public class EnemyPatrol : EnemyBehavior {
 
     private void FixedUpdate()
     {
-        transform.position = Vector3.MoveTowards(transform.position, waypoints[currentWaypointIndex].position, speed * Time.deltaTime);        
+        transform.localPosition = Vector3.MoveTowards(transform.localPosition, waypoints[currentWaypointIndex].localPosition, speed * Time.deltaTime);        
 
-        if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.2f)
+        if (Vector3.Distance(transform.localPosition, waypoints[currentWaypointIndex].localPosition) < 0.2f)
         {
             if (waitTime <= 0)
             {

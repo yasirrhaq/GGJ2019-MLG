@@ -7,6 +7,7 @@ public class Item : MonoBehaviour {
     public SpriteRenderer itemSpriteRenderer;
     public Weapon weapon;
     public bool countDown = false;
+    public bool unbreakable = false;
     public float duration = 5f;
 
     void Start () {

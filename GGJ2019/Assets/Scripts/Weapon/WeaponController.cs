@@ -11,6 +11,7 @@ public class WeaponController : MonoBehaviour {
     public AudioSource sfx;
     public GameObject currentItemGO;
     public GameObject dropItemPrefab;
+    public GameObject effect;
 
     public WeaponDamage weaponAttack;
 
@@ -45,18 +46,31 @@ public class WeaponController : MonoBehaviour {
 
         currentWeapon = currentItemGO.GetComponent<Item>().weapon;
 
+        effect = currentWeapon.effects;
         sfx.clip = currentWeapon.audioClip;
         weaponType = currentWeapon.type;
         damage = currentWeapon.weaponDamage;
         gfx.sprite = currentWeapon.weaponSprite;
 
-        Destroy(currentItemGO);
+        if (!currentItemGO.GetComponent<Item>().unbreakable)
+        {
+            Destroy(currentItemGO);
+        } else
+        {
+            currentItemGO = null;
+        }
     }
 
     public void Attack()
     {
         if (!weaponAttack.gameObject.active)
         {
+            if (effect != null)
+            {
+                GameObject vfx = Instantiate(effect, transform.position, transform.rotation);
+                Destroy(vfx, 1.5f);
+            }
+
             sfx.Play();
             weaponAttack.weaponType = weaponType;
             weaponAttack.damage = damage;
