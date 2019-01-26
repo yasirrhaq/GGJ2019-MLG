@@ -9,10 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9aa136fb9bca8bd48ae38eec1b0fa68a, type: 3}
-  m_Name: Sapu 1
+  m_Name: Racket
   m_EditorClassIdentifier: 
-  weaponName: Sapu
-  type: 0
-  weaponSprite: {fileID: 21300000, guid: 1f8d933bc7dca7241905204c96c1f2a9, type: 3}
+  weaponName: Racket
+  type: 1
+  weaponSprite: {fileID: 21300000, guid: 82e15b9faa80fa444a1537d0fdf43540, type: 3}
   weaponDamage: 10
   effects: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 0ec533f3506e6e145986f3445152eeb7, type: 3}
