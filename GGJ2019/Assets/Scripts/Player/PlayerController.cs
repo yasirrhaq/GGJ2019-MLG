@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour {
 
     public Animator gfxAnimator;
 
+    public GameObject gameOverObj;
+    public bool gameOver;
+
     private float horizontalMove;
     private float verticalMove;
 
@@ -39,6 +42,11 @@ public class PlayerController : MonoBehaviour {
 
     private void Update()
     {
+        if (gameOver)
+        {
+            return;
+        }
+
         if (isUpdatingValue)
         {
             if (increase)
@@ -64,6 +72,11 @@ public class PlayerController : MonoBehaviour {
                     {
                         healthBar.fillAmount = targetValue;
                         isUpdatingValue = false;
+
+                        if (healthBar.fillAmount == 0)
+                        {
+
+                        }
                     }
                 }
             }
@@ -72,10 +85,12 @@ public class PlayerController : MonoBehaviour {
 
     void FixedUpdate()
     {
-        horizontalMove = Input.GetAxis("Horizontal");
-        verticalMove = Input.GetAxis("Vertical");
-        Move();
-
+        if (!gameOver)
+        {
+            horizontalMove = Input.GetAxis("Horizontal");
+            verticalMove = Input.GetAxis("Vertical");
+            Move();
+        }
     }
 
     void Move()
@@ -155,6 +170,17 @@ public class PlayerController : MonoBehaviour {
     {
         targetValue = health / maxHealth;
         isUpdatingValue = true;
+    }
+
+    public void GameOver()
+    {
+        //play gameover music
+
+        gameOver = true;
+        Debug.Log("Game Over");
+
+        if (gameOverObj != null)
+            gameOverObj.SetActive(true);
     }
 
     void OnTriggerEnter2D(Collider2D coll)
