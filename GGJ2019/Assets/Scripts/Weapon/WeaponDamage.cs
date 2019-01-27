@@ -5,7 +5,13 @@ using UnityEngine;
 public class WeaponDamage : MonoBehaviour {
 
     public WeaponType weaponType;
+    public float duration = 2f;
     public int damage;
+
+    private void Start()
+    {
+        Destroy(gameObject, duration);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

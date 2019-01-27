@@ -7,16 +7,20 @@ public class Pathfinding : MonoBehaviour {
 	public Transform seeker, target;
     public GetDistanceType getDistanceType = GetDistanceType.Manhattan;
 	public Grid grid;
-
-	void Awake() {
+    public List<Node> path;
+    
+    void Awake() {
         seeker = transform;
 	}
 
-	void Update()
+    private void Start()
     {
         GameObject astar = GameObject.FindGameObjectWithTag("Astar Grid");
         grid = astar.GetComponent<Grid>();
+    }
 
+    void Update()
+    {
         target = PlayerController.playerTransform;
 
         if (target == null)
@@ -97,7 +101,7 @@ public class Pathfinding : MonoBehaviour {
 	}
 
 	void RetracePath(Node startNode, Node endNode) {
-		List<Node> path = new List<Node>();
+		path = new List<Node>();
 		Node currentNode = endNode;
 
 		while (currentNode != startNode) {
@@ -106,8 +110,7 @@ public class Pathfinding : MonoBehaviour {
 		}
 		path.Reverse();
 
-		grid.path = path;
-
+		
 	}
 
     int GetDistance(Node nodeA, Node nodeB)

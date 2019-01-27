@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Racket
   type: 1
-  weaponSprite: {fileID: 21300000, guid: 82e15b9faa80fa444a1537d0fdf43540, type: 3}
+  weaponSprite: {fileID: 21300000, guid: d25e535bea3f9ae4fb3e2cf4cbdcf8ff, type: 3}
   weaponDamage: 10
-  effects: {fileID: 1128683726157464, guid: 85775c6a52e7d664d9064dbfd0902738, type: 2}
-  audioClip: {fileID: 8300000, guid: 0ec533f3506e6e145986f3445152eeb7, type: 3}
+  effects: {fileID: 1468112316345906, guid: 1116b4a2dc651464290ddfd25538b88d, type: 2}
+  audioClip: {fileID: 8300000, guid: 727d312e8638f13448be53456d571719, type: 3}

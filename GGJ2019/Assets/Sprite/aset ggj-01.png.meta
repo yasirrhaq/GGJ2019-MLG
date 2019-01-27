@@ -1,0 +1,1422 @@
+fileFormatVersion: 2
+guid: a8e541dacbd9374438b4aa6454b6844c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: aset ggj-01_0
+    21300002: aset ggj-01_1
+    21300004: aset ggj-01_2
+    21300006: aset ggj-01_3
+    21300008: aset ggj-01_4
+    21300010: aset ggj-01_5
+    21300012: aset ggj-01_6
+    21300014: aset ggj-01_7
+    21300016: aset ggj-01_8
+    21300018: aset ggj-01_9
+    21300020: aset ggj-01_10
+    21300022: aset ggj-01_11
+    21300024: aset ggj-01_12
+    21300026: aset ggj-01_13
+    21300028: aset ggj-01_14
+    21300030: aset ggj-01_15
+    21300032: aset ggj-01_16
+    21300034: aset ggj-01_17
+    21300036: aset ggj-01_18
+    21300038: aset ggj-01_19
+    21300040: aset ggj-01_20
+    21300042: aset ggj-01_21
+    21300044: aset ggj-01_22
+    21300046: aset ggj-01_23
+    21300048: aset ggj-01_24
+    21300050: aset ggj-01_25
+    21300052: aset ggj-01_26
+    21300054: aset ggj-01_27
+    21300056: aset ggj-01_28
+    21300058: aset ggj-01_29
+    21300060: aset ggj-01_30
+    21300062: aset ggj-01_31
+    21300064: aset ggj-01_32
+    21300066: aset ggj-01_33
+    21300068: aset ggj-01_34
+    21300070: aset ggj-01_35
+    21300072: aset ggj-01_36
+    21300074: aset ggj-01_37
+    21300076: aset ggj-01_38
+    21300078: aset ggj-01_39
+    21300080: aset ggj-01_40
+    21300082: aset ggj-01_41
+    21300084: aset ggj-01_42
+    21300086: aset ggj-01_43
+    21300088: aset ggj-01_44
+    21300090: aset ggj-01_45
+    21300092: aset ggj-01_46
+    21300094: aset ggj-01_47
+    21300096: aset ggj-01_48
+    21300098: aset ggj-01_49
+    21300100: aset ggj-01_50
+    21300102: aset ggj-01_51
+    21300104: aset ggj-01_52
+    21300106: aset ggj-01_53
+    21300108: aset ggj-01_54
+    21300110: aset ggj-01_55
+    21300112: aset ggj-01_56
+    21300114: aset ggj-01_57
+    21300116: aset ggj-01_58
+    21300118: aset ggj-01_59
+    21300120: aset ggj-01_60
+    21300122: aset ggj-01_61
+    21300124: aset ggj-01_62
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aset ggj-01_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 10851
+        width: 847
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9418c0d531c7b8b478675ddb5ed575a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_1
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 10851
+        width: 847
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd8e988900088844b5a6b2eca553153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_2
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 10851
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f852cc039a5c2f49a53737793b097d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_3
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 10811
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c60105dc4107a4f9399242846827d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 9893
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf66083b412d3774680db481ef5f62f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_5
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 9893
+        width: 852
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03855be1a35acba4ea72ff5f3147315b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_6
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 9876
+        width: 854
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703c16487b8575446bbe68a120fb04e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_7
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 9992
+        width: 853
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937c73acf587ffe47836acb0db4ed078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_8
+      rect:
+        serializedVersion: 2
+        x: 5389
+        y: 9986
+        width: 853
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b69d62af0f10645a0c572a7b7caa8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_9
+      rect:
+        serializedVersion: 2
+        x: 6295
+        y: 9986
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b764ca44a04c247b07976fb0a4f809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_10
+      rect:
+        serializedVersion: 2
+        x: 7972
+        y: 9932
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad27c7dc3fb816e4fa352db30e2db91a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 8913
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a194dd79c9b48e14ca9d2e9b0674d1ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_12
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 8913
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d704ce9ebba0f9f4caac7bd0063dd7c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_13
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 8913
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e76e6495fdd4ce4ebe8456a516b508e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_14
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 9248
+        width: 847
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0090e4239163e94db1eb02fdf3f1045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_15
+      rect:
+        serializedVersion: 2
+        x: 4530
+        y: 9069
+        width: 269
+        height: 617
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cdff4c563410d4e915f9ba47b55c17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_16
+      rect:
+        serializedVersion: 2
+        x: 4910
+        y: 9069
+        width: 266
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85641a435cab57c41b2ccd5fe22487c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_17
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 9070
+        width: 502
+        height: 845
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37b1d86a5334eb49964fefa0c3ee710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_18
+      rect:
+        serializedVersion: 2
+        x: 6295
+        y: 9051
+        width: 852
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf9369d149775b4a8b6cffec8195f20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_19
+      rect:
+        serializedVersion: 2
+        x: 7546
+        y: 9524
+        width: 155
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c864aaab4b903c6458be0c0c7829bbf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_20
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 7962
+        width: 848
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187ebb4d1f6517c4abc8eb05eca37d52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_21
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 7962
+        width: 848
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b74fdf88cb9904286d262c492f7b7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_22
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 7962
+        width: 847
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353ebe30fc26a464c8d90526a27c7f9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_23
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 7627
+        width: 703
+        height: 830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbac3d2931750ee4bb1dd4b56820fee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_24
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 7627
+        width: 830
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a563bf5e481c1114ba1660d455d9d62f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_25
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 7627
+        width: 812
+        height: 778
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d913b6faea3aa408de4f2da79322e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 7056
+        width: 847
+        height: 850
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d685ad22d9a0ea14cab938fad1bd9b4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_27
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 7056
+        width: 848
+        height: 850
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5507169961ed4884c8c71f92c8481124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_28
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 7056
+        width: 848
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266eaa9451860f419eaf8eedd35f6e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_29
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 7241
+        width: 847
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae406f3b268b92841b6607e7b088ac8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_30
+      rect:
+        serializedVersion: 2
+        x: 4472
+        y: 7241
+        width: 594
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb18c603ff1de634dad51301a870bd6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_31
+      rect:
+        serializedVersion: 2
+        x: 5372
+        y: 7241
+        width: 472
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fd0aae2ac4e6c40969365be1d1f382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 6139
+        width: 848
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec1456065cca1541a0188dd662af829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_33
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 6133
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe63c77eb4a17a4fbfb8bac1f861cac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_34
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 6122
+        width: 848
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1164ef16d6cb0c94cb84bfe7bbe5ec42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_35
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 6306
+        width: 651
+        height: 738
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9985b0ef8ca28534187bae534e31232a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_36
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 6306
+        width: 709
+        height: 675
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d137544df0588a44aa03f290194b28c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_37
+      rect:
+        serializedVersion: 2
+        x: 5112
+        y: 6306
+        width: 767
+        height: 599
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf590279fbffcb469d7d2ef8bb18943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_38
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 5153
+        width: 847
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c598fe125370e48afd30944f00a076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_39
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 5141
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006052f15898a2d45bc2f44ab27725ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_40
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 5153
+        width: 853
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00a973609aac8f44bffe0439348ba20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_41
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 4358
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1727983a83b687428889cbd0bf4138a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_42
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 4346
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6274058194d68814dba84532dee46abb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_43
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 4167
+        width: 847
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e2ed008cc4bc64c8738d93611a6f8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_44
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 4155
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044bdee9589e98d439ba5274ea991ec4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_45
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 4155
+        width: 853
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d58e3c1b24f9241935514278f15a32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_46
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3002
+        width: 848
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fda96d8a48689344bfc88f590590f9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_47
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 3002
+        width: 847
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b9c1748fa86324193ca93ba853f9a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_48
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 3002
+        width: 852
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0276087fcdeeff649a352b3f7988492e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_49
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 3002
+        width: 848
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04b4e7ea3cd39a4b8190f6e10076bbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_50
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 3088
+        width: 853
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801a5732b951e3c45b85cd7bef9f1f16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2057
+        width: 848
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0346267615593304988a75e31b17f05d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_52
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2057
+        width: 847
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa83c0100910945a198e06138ff99b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_53
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 2045
+        width: 852
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c09580e5621aed408f386afe985111e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_54
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 2045
+        width: 848
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1951ba78b4da07642aacc1f6394946d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_55
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1162
+        width: 859
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447ce784593d0c64f88379282da9aaa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_56
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 326
+        width: 634
+        height: 1476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941b447003ef494ea9ac00345126607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_57
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1041
+        width: 853
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659c8a9455a7e274bb6640edc8c79498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_58
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 9967
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cbe6baf225e1947af8598e2078ed14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_59
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 5206
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a197ecc29c274a14f99d8a46d8c09c1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_60
+      rect:
+        serializedVersion: 2
+        x: 4093
+        y: 5206
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7063d85770bb5ea49ab0f233bcf41ebd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_61
+      rect:
+        serializedVersion: 2
+        x: 4093
+        y: 4358
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9bb87f860bf0e4aaa67b5adf0836d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aset ggj-01_62
+      rect:
+        serializedVersion: 2
+        x: 7143
+        y: 9986
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f758bb7e8daa2cf4cbc84d93558f0081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f277830f1b799b143b444870ecc4a0b9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

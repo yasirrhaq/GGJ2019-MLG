@@ -13,12 +13,17 @@ public class WeaponController : MonoBehaviour {
     public GameObject dropItemPrefab;
     public GameObject effect;
 
-    public WeaponDamage weaponAttack;
+    public Transform attackPos;
 
     private Weapon currentWeapon;
 
     private void Update()
     {
+        if (PlayerController.gameOver)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.F))
         {
             PickUpWeapon();
@@ -63,28 +68,16 @@ public class WeaponController : MonoBehaviour {
 
     public void Attack()
     {
-        if (!weaponAttack.gameObject.active)
+        if (effect != null)
         {
-            if (effect != null)
-            {
-                GameObject vfx = Instantiate(effect, transform.position, transform.rotation);
-                Destroy(vfx, 1.5f);
-            }
-
+            GameObject vfx = Instantiate(effect, attackPos.position, transform.rotation);
+            WeaponDamage weaponAttack = vfx.GetComponent<WeaponDamage>();
             sfx.Play();
             weaponAttack.weaponType = weaponType;
             weaponAttack.damage = damage;
-            weaponAttack.gameObject.SetActive(true);
-            Invoke("DisableAttack", .5f);
         }
-
     }
-
-    public void DisableAttack()
-    {
-        weaponAttack.gameObject.SetActive(false);
-    }
-
+    
     public void DropWeapon()
     {
         if (currentWeapon == null)

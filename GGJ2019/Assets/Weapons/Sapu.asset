@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Sapu
   type: 2
-  weaponSprite: {fileID: 21300000, guid: 1f8d933bc7dca7241905204c96c1f2a9, type: 3}
+  weaponSprite: {fileID: 21300000, guid: 261ffe85e637d9344bfd9254e011c640, type: 3}
   weaponDamage: 10
-  effects: {fileID: 1749993276358104, guid: ef03073e142d28e4abc33f0e6129d88a, type: 2}
-  audioClip: {fileID: 8300000, guid: ce08d469278644e4a84d76870e8588f4, type: 3}
+  effects: {fileID: 1108454909701706, guid: cc648933cce78714392e6b471c0077ea, type: 2}
+  audioClip: {fileID: 8300000, guid: 30d0c9fdb537e724eb80c98908574d18, type: 3}

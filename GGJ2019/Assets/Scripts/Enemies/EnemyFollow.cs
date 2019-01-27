@@ -5,11 +5,11 @@ using UnityEngine;
 public class EnemyFollow : EnemyBehavior {
 
     public float speed = 5;
-    public Transform playerTransform;
-    public Grid grid;
     public bool move;
     private float waitTime;
     public float startWaitTime = .5f;
+
+    public Pathfinding pathfinding;
 
     float step;
     Node currentNode;
@@ -17,22 +17,19 @@ public class EnemyFollow : EnemyBehavior {
 
     private void Start()
     {
-        GameObject astar = GameObject.FindGameObjectWithTag("Astar Grid");
-        grid = astar.GetComponent<Grid>();
 
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void FixedUpdate () {
         if (move)
         {
-            currentNode = grid.NodeFromWorldPoint(transform.position);
+            currentNode = pathfinding.grid.NodeFromWorldPoint(transform.position);
 
             bool found = false;
-            foreach (Node neighbour in grid.GetNeighbours(currentNode))
+            foreach (Node neighbour in pathfinding.grid.GetNeighbours(currentNode))
             {
-                if (grid.path != null)
-                    if (grid.path.Contains(neighbour))
+                if (pathfinding.path != null)
+                    if (pathfinding.path.Contains(neighbour))
                     {
                         targetNodepos = new Vector2(neighbour.worldPosition.x, neighbour.worldPosition.y);
                         found = true;

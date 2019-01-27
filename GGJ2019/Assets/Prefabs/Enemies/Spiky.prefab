@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212435047152326912}
   - component: {fileID: 58371554517483000}
   - component: {fileID: 114518299500976660}
+  - component: {fileID: 95188790688593644}
   m_Layer: 0
   m_Name: Spiky
   m_TagString: Enemy
@@ -54,9 +55,27 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.034334183}
   serializedVersion: 2
-  m_Radius: 0.7
+  m_Radius: 0.4138801
+--- !u!95 &95188790688593644
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656134533867356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 79455e683e77d5848ae25b23b0ce72c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114518299500976660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -75,6 +94,11 @@ MonoBehaviour:
   type: 2
   spriteRenderer: {fileID: 212435047152326912}
   animator: {fileID: 0}
+  dropItems:
+  - {fileID: 114308003267448100, guid: 2a08b5deee32b58479e1eabd04a50124, type: 2}
+  - {fileID: 114780533883623746, guid: 0c56114146815da47af69bf394136975, type: 2}
+  destroyParent: 0
+  dieEffect: {fileID: 0}
 --- !u!212 &212435047152326912
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -110,7 +134,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 769031862920ad443b2799f979f14856, type: 3}
+  m_Sprite: {fileID: 21300058, guid: a8e541dacbd9374438b4aa6454b6844c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

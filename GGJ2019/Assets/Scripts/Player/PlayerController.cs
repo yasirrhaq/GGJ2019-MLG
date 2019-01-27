@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour {
 
     public static Transform playerTransform;
+    public static bool gameOver;
 
     public float maxHealth = 100;
     public float health = 100;
@@ -19,7 +20,6 @@ public class PlayerController : MonoBehaviour {
     public Animator gfxAnimator;
 
     public GameObject gameOverObj;
-    public bool gameOver;
 
     private float horizontalMove;
     private float verticalMove;
@@ -88,28 +88,28 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButton("Vertical") && Input.GetAxis("Vertical") > 0)
         {
             SetFalse();
-            gfxAnimator.SetBool("Forward", true);
+            gfxAnimator.SetTrigger("Forward");
             velocity = new Vector2(0, 1 * speed * Time.deltaTime);
             rb2d.MovePosition(rb2d.position + velocity);
         }
         else if (Input.GetButton("Horizontal") && Input.GetAxis("Horizontal") < 0)
         {
             SetFalse();
-            gfxAnimator.SetBool("Left", true);
+            gfxAnimator.SetTrigger("Left");
             velocity = new Vector2(-1 * speed * Time.deltaTime, 0);
             rb2d.MovePosition(rb2d.position + velocity);
         }
         else if (Input.GetButton("Horizontal") && Input.GetAxis("Horizontal") > 0)
         {
             SetFalse();
-            gfxAnimator.SetBool("Right", true);
+            gfxAnimator.SetTrigger("Right");
             velocity = new Vector2(1 * speed * Time.deltaTime, 0);
             rb2d.MovePosition(rb2d.position + velocity);
         }
         else if (Input.GetButton("Vertical") && Input.GetAxis("Vertical") < 0)
         {
             SetFalse();
-            gfxAnimator.SetBool("Back", true);
+            gfxAnimator.SetTrigger("Back");
             velocity = new Vector2(0, -1 * speed * Time.deltaTime);
             rb2d.MovePosition(rb2d.position + velocity);
         }
