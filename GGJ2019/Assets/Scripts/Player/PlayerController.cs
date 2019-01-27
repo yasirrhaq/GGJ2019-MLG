@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
+    public static Transform playerTransform;
+
     public float maxHealth = 100;
     public float health = 100;
     public Image healthBar;
@@ -26,7 +28,11 @@ public class PlayerController : MonoBehaviour {
     public Vector2 velocity;
     private Rigidbody2D rb2d;
 
-    // Use this for initialization
+    void Awake()
+    {
+        playerTransform = transform;
+    }
+    
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -34,19 +40,8 @@ public class PlayerController : MonoBehaviour {
         UpdateHealthBar();
     }
 
-    public void Die()
-    {
-        Debug.Log("You Died!");
-        gameObject.SetActive(false);
-    }
-
     private void Update()
     {
-        if (gameOver)
-        {
-            return;
-        }
-
         if (isUpdatingValue)
         {
             if (increase)
@@ -72,11 +67,6 @@ public class PlayerController : MonoBehaviour {
                     {
                         healthBar.fillAmount = targetValue;
                         isUpdatingValue = false;
-
-                        if (healthBar.fillAmount == 0)
-                        {
-
-                        }
                     }
                 }
             }
@@ -174,13 +164,16 @@ public class PlayerController : MonoBehaviour {
 
     public void GameOver()
     {
-        //play gameover music
+        if (health <= 0)
+        {
+            //play gameover music
 
-        gameOver = true;
-        Debug.Log("Game Over");
+            gameOver = true;
+            Debug.Log("Game Over");
 
-        if (gameOverObj != null)
-            gameOverObj.SetActive(true);
+            if (gameOverObj != null)
+                gameOverObj.SetActive(true);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D coll)

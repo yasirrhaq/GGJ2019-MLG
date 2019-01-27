@@ -6,23 +6,45 @@ public class EnemyFollow : EnemyBehavior {
 
     public float speed = 5;
     public Transform playerTransform;
-
+    public Grid grid;
     public bool move;
     private float waitTime;
     public float startWaitTime = .5f;
 
     float step;
+    Node currentNode;
+    Vector2 targetNodepos;
 
     private void Start()
     {
+        GameObject astar = GameObject.FindGameObjectWithTag("Astar Grid");
+        grid = astar.GetComponent<Grid>();
+
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void FixedUpdate () {
         if (move)
         {
-            step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, playerTransform.position, step);
+            currentNode = grid.NodeFromWorldPoint(transform.position);
+
+            bool found = false;
+            foreach (Node neighbour in grid.GetNeighbours(currentNode))
+            {
+                if (grid.path != null)
+                    if (grid.path.Contains(neighbour))
+                    {
+                        targetNodepos = new Vector2(neighbour.worldPosition.x, neighbour.worldPosition.y);
+                        found = true;
+                        break;
+                    }
+            }
+
+            if (found)
+            {
+                step = speed * Time.deltaTime;
+                transform.position = Vector2.MoveTowards(transform.position, targetNodepos, step);
+            }
         }
         else
         {
@@ -55,7 +77,7 @@ public class EnemyFollow : EnemyBehavior {
         {
             PlayerController player = collision.GetComponent<PlayerController>();
             player.Damage(damage);
-            Debug.Log("Eww");
+            player.GameOver();
 
             Destroy(gameObject);
         }

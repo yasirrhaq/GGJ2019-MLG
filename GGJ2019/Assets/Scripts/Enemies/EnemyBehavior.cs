@@ -11,11 +11,20 @@ public class EnemyBehavior : MonoBehaviour {
     public EnemyType type;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+    public bool destroyParent;
     
     public void Die()
     {
         ScoreManager.instance.AddScore(point);
-        Destroy(gameObject);
+
+        if (destroyParent)
+        {
+            Destroy(transform.parent.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Update()

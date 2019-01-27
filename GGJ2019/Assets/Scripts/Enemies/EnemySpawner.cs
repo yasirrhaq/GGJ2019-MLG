@@ -8,7 +8,9 @@ public class EnemySpawner : MonoBehaviour {
     public Vector2 minposition;
     public GameObject[] enemyPrefabs;
     public float delay = 2;
+    public float decreaseDuration = 0.01f;
 
+    float delayLimit = 1;
     Vector2 targetPos;
     float timer;
 
@@ -19,6 +21,11 @@ public class EnemySpawner : MonoBehaviour {
 
     public void SpawnEnemy()
     {
+        if (delay > delayLimit)
+        {
+            delay -= decreaseDuration;
+        }
+
         targetPos.x = Random.Range(minposition.x, maxposition.x);
         targetPos.y = Random.Range(minposition.y, maxposition.y);
 

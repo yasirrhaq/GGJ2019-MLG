@@ -62,7 +62,7 @@ public class EnemyPatrol : EnemyBehavior {
         {
             PlayerController player = collision.GetComponent<PlayerController>();
             player.Damage(damage);
-            Debug.Log("Iiiiii");
+            player.GameOver();
         }
     }
 }

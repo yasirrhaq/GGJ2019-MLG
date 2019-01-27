@@ -10,7 +10,7 @@ public class EnemyTrap : EnemyBehavior {
         {
             PlayerController player = collision.GetComponent<PlayerController>();
             player.Damage(damage);
-            Debug.Log("Aww");
+            player.GameOver();
 
             Destroy(gameObject);
         }
