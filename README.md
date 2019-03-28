@@ -1,5 +1,5 @@
 # GGJ2019
-GGJ 2019 REPO
+Created for Global Game Jam 2019
 
 ## Main Menu
 ![main menu gede](https://user-images.githubusercontent.com/41731559/54626315-84d22500-4aa3-11e9-9b79-2861106e133b.png)
